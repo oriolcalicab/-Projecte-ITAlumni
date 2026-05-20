@@ -1,0 +1,32 @@
+.btn-1 {
+  border: 2px solid rgb(204, 50, 204);
+  background-color: transparent; 
+  color: rgb(204, 50, 204); 
+  padding: 10px 40px; 
+  border-radius: 15px; 
+  cursor: pointer;
+  margin-left: 30px;
+}
+.btn-2{
+    background: linear-gradient(to right, #7b2cbf, #d10074);
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.hero{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15%;
+}
+.hero-content h1{
+  font-size: 5rem;
+}
+.hero-content p{
+  padding-top: 5%;
+}
+.hero-btn{
+  padding-top: 4%;
+}
