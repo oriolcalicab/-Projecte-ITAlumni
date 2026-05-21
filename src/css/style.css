@@ -144,3 +144,41 @@ header {
     cursor: pointer;  
 }
 
+.testimonials-section{
+   padding: 60px;
+    text-align: center;
+}
+.testimonials-section h2{
+      font-size: 28px;
+    color: #171A1F;
+    margin-bottom: 40px;
+}
+  
+.testimonials-container{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding: 40px 20px; 
+  flex-direction: row; 
+}
+.testimonials-card{
+  flex: 1;
+  max-width: 350px;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f0f0f0;
+}
+.testimonials-header{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.testimonials-header img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
