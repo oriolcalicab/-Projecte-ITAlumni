@@ -71,3 +71,19 @@ header {
     border-radius: 15px;
     cursor: pointer;
 }
+
+.hero{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15%;
+}
+.hero-content h1{
+  font-size: 5rem;
+}
+.hero-content p{
+  padding-top: 5%;
+}
+.hero-btn{
+  padding-top: 4%;
+}
