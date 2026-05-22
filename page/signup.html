@@ -1,11 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container-signuo">
+      <main class="register-card">
+        <h2>Crea un compte</h2>
+        <p class="subtitle">
+          Uneix-te a nosaltres per connectar-te i compartir oportunitats!
+        </p>
+
+        <form action="" class="register-form">
+          <div class="input-group">
+            <span class="icon">👤</span>
+            <input type="text" placeholder="Posa el teu nom" required />
+          </div>
+
+          <div class="input-group">
+            <span class="icon">👤</span>
+            <input type="text" placeholder="Posa el teu cognom" required />
+          </div>
+
+          <div class="input-group">
+            <span class="icon">✉</span>
+            <input
+              type="email"
+              placeholder="El teu correu electronic"
+              required
+            />
+          </div>
+
+          <div class="input-group">
+            <span class="icon">🔒</span>
+            <input
+              type="password"
+              placeholder="Crea una contrasenya"
+              required
+            />
+          </div>
+
+          <div class="checkbox">
+            <input type="checkbox" id="terms" required />
+            <label for="terms">Accepto els Termes i Condicions </label>
+          </div>
+
+          <button class="btn-submit" type="submit">Registra't</button>
+        </form>
+
+        <div class="separator">
+          <span>o</span>
+        </div>
+
+        <div class="social-login">
+            <button class="btn-apple" type="button">
+                <img src="../src/assets/icon/icons8-mac-os-.png" alt="logo apple">Continua amb Apple                
+            </button>
+            <button class="btn-google" type="button">
+                <img src="../src/assets/icon/icons8-logo-de-google-50.png" alt="logo google">Continua amb Google                
+            </button>
+            <button class="btn-facebook" type="button">
+                <img src="../src/assets/icon/icons8-facebook-nuevo-50.png" alt="logo facebook">Continua amb Facebook                
+            </button>
+        </div>
+
+        <p class="footer-text">
+            Ja t'has registrat? <a href="#">Inicia sessió</a>
+        </p>
+      </main>
+    </div>
+  </body>
 </html>
