@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-image: url("../assets/img/gent-carrer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container-signup {
+  /* background-image: url("../assets/img/gent-carrer.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+.register-card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 550px;
+  padding: 40px 50px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.register-card h2 {
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+.subtitle {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.input-group .icon {
+  position: absolute;
+  left: 15px;
+  font-size: 16px;
+}
+.input-group input {
+  width: 100%;
+  padding: 14px 14px 14px 45px;
+  background-color: #f3f4f6;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+.input-group input::placeholder {
+  color: #bcc1ca;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: #1a202c;
+  margin-top: 5px;
+}
+.btn-submit {
+  background-color: #ce0a86;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.btn-submit:hover {
+  background-color: #b0005e;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #121213;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.social-login {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.btn-social {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.social-img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+.btn-apple {
+  background-color: #fef0f9;
+  color: rgb(226, 214, 214);
+}
+.btn-apple:hover {
+  background-color: #e6cadc;
+}
+.btn-google {
+  background-color: #fdf2f2;
+  color: #de3b40;
+}
+.btn-google:hover {
+  background-color: #d8c3c3;
+}
+.btn-facebook {
+  background-color: #f1f8fd;
+  color: #379ae6;
+}
+.btn-facebook:hover {
+  background-color: #daebf7;
+}
+.footer-text {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #000000;
+}
+.footer-text a {
+  color: #ce0a86;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.footer-text a:hover {
+    text-decoration: underline;
+}
