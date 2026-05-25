@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box; 
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -61,6 +61,7 @@ header {
   padding: 10px 40px;
   border-radius: 15px;
   cursor: pointer;
+  text-decoration: none;
 }
 .btn-2 {
   background: linear-gradient(to right, #7b2cbf, #d10074);
@@ -69,6 +70,7 @@ header {
   padding: 10px 40px;
   border-radius: 15px;
   cursor: pointer;
+   text-decoration: none;
 }
 .hero {
   text-align: center;
@@ -202,7 +204,6 @@ header {
 }
 .input-container {
   position: relative;
-
 }
 .mail-icon {
   position: absolute;
@@ -214,7 +215,7 @@ header {
 .input-container input {
   width: 320px;
   padding: 15px 15px 15px 45px;
-  border: 1px solid #BCC1CA;
+  border: 1px solid #bcc1ca;
   background-color: transparent;
   color: white;
   outline: none;
