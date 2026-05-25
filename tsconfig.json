@@ -1,44 +1,26 @@
 {
-  // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
-    // File Layout
-    // "rootDir": "./src",
-    // "outDir": "./dist",
+    /* 🚀 RUTES DE LES CARPETES: Descomentades i configurades */
+    "rootDir": "./src/ts",                     // On escrius els teus arxius .ts
+    "outDir": "./src/js",                     // On es crearan els arxius .js de sortida
 
-    // Environment Settings
-    // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
+    /* 🌐 CONFIGURACIÓ PER A NAVEGADOR (FRONT-END) */
+    "module": "ES6",                           // Canviat de nodenext a ES6 perquè el navegador ho entengui directament
+    "target": "ES6",                           // JavaScript modern estàndard
     "types": [],
-    // For nodejs:
-    // "lib": ["esnext"],
-    // "types": ["node"],
-    // and npm install -D @types/node
 
-    // Other Outputs
+    /* Altres opcions que ja tenies de sortida */
     "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
+    "declaration": false,                      // Canviat a false perquè no et crei arxius .d.ts molestos a la carpeta js
+    "declarationMap": false,
 
-    // Stricter Typechecking Options
+    /* Validacions de tipus estrictes (les que tenies) */
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
-
-    // Style Options
-    // "noImplicitReturns": true,
-    // "noImplicitOverride": true,
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
-    // "noFallthroughCasesInSwitch": true,
-    // "noPropertyAccessFromIndexSignature": true,
-
-    // Recommended Options
     "strict": true,
-    "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
     "skipLibCheck": true,
-  }
+    "forceConsistentCasingInFileNames": true
+  },
+  /* 📂 INCLOURE CARPETES: Diu a TypeScript on ha de mirar */
+  "include": ["src/ts/**/*"]
 }
