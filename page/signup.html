@@ -17,18 +17,18 @@
         <form action="" class="register-form">
           <div class="input-group">
             <span class="icon">👤</span>
-            <input type="text" placeholder="Posa el teu nom" required />
+            <input type="text" id="nom" placeholder="Posa el teu nom" required />
           </div>
 
           <div class="input-group">
             <span class="icon">👤</span>
-            <input type="text" placeholder="Posa el teu cognom" required />
+            <input type="text" id="cognom" placeholder="Posa el teu cognom" required />
           </div>
 
           <div class="input-group">
             <span class="icon">✉</span>
             <input
-              type="email"
+              type="email" id="email"
               placeholder="El teu correu electronic"
               required
             />
@@ -37,7 +37,7 @@
           <div class="input-group">
             <span class="icon">🔒</span>
             <input
-              type="password"
+              type="password" id="contrasenya"
               placeholder="Crea una contrasenya"
               required
             />
@@ -70,5 +70,6 @@
         </p>
       </main>
     </div>
+    <script src="../src/js/signup.js"></script>
   </body>
 </html>
