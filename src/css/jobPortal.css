@@ -46,3 +46,57 @@ header {
   border-bottom: 3px solid rgb(204, 50, 204);
   padding-bottom: 10px;
 }
+.networking-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  width: 100%;
+}
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  width: 100%;
+}
+.search-icon {
+  position: absolute;
+  left: 10px;
+}
+.search-box input {
+  width: 100%;
+  padding: 8px 12px 8px 35px;
+  border: 1px solid #bcc1ca;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+.filter-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.filter-label{
+  font-size: 15px;
+}
+.filter-list{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  
+}
+.filter-link{
+  text-decoration: none;
+  color: gray;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 20px;
+}
+.filter-link:hover{
+  color: rgb(204, 50, 204);
+  border-bottom: 3px solid rgb(204, 50, 204);
+
+}  
