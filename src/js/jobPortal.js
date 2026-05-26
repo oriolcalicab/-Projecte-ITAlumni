@@ -32,7 +32,7 @@ function renderitzarFeines(llistaFeines) {
                         <h2 class="job-title">${feina.titol}</h2>
                         <p class="job-contract">${feina.tipusContracte}</p>
                         <p class="job-date">${feina.publicat}</p>
-                        <button type="button" class="job-action-btn">View Details</button>
+                        <button type="button" class="job-action-btn">Veure detalls</button>
                     </div>
                     <div class="job-image-container">
                         <img src="${feina.imatgeUrl}" alt="Il·lustració de ${feina.titol}" class="job-card-img" />
