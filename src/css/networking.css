@@ -119,6 +119,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
 }
 .alumni-card:hover{
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
@@ -146,7 +147,7 @@ header {
 
 }
 .alumni-btn{
-  width: 100%;
+  width: 50%;
   padding: 10px 16px;
   background-color: #CE0A86;
   color: white;

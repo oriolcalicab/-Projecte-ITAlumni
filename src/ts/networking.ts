@@ -1,5 +1,3 @@
-console.log("📍 La ruta on estic ara és:", window.location.pathname);
-
 interface Alumne {
     id: string;
     nom: string;
@@ -24,6 +22,7 @@ function renderitzarAlumnes(alumnes: Alumne[]): void {
         const inicials = `${alumne.nom.charAt(0)}${alumne.cognom.charAt(0)}`;
         grid.innerHTML += `
        <div class="alumni-card">
+                <div class="alumni-avatar">${inicials}</div>
                 <h3 class="alumni-name">${alumne.nom} ${alumne.cognom}</h3>
                 <p class="alumni-role">${alumne.carrec}</p>
                 <div class="alumni-location">
