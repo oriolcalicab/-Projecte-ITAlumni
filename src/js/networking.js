@@ -1,5 +1,4 @@
 "use strict";
-console.log("📍 La ruta on estic ara és:", window.location.pathname);
 function renderitzarAlumnes(alumnes) {
     const grid = document.getElementById('alumni-grid');
     if (!(grid instanceof HTMLElement))
@@ -17,7 +16,7 @@ function renderitzarAlumnes(alumnes) {
                 <h3 class="alumni-name">${alumne.nom} ${alumne.cognom}</h3>
                 <p class="alumni-role">${alumne.carrec}</p>
                 <div class="alumni-location">
-                    📍 <span>${alumne.localitzacio}</span>
+                     <span>${alumne.localitzacio}</span>
                 </div>
                 <button type="button" class="alumni-btn">Connectar</button>
             </div>
