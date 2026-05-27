@@ -162,3 +162,103 @@ header {
 .alumni-btn:hover{
   background-color: #c54b98;
 }
+.footer {
+  background-color: #1d2128;
+  padding: 60px 80px;
+}
+
+.footer-section {
+  max-width: 1200%;
+  margin: auto;
+}
+.footer-section h4 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 1.7rem;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.input-container {
+  position: relative;
+}
+.mail-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+.input-container input {
+  width: 320px;
+  padding: 15px 15px 15px 45px;
+  border: 1px solid #bcc1ca;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border-radius: 25px 0 0 25px;
+}
+.btn-email {
+  background: linear-gradient(to right, #7b2cbf, #d10074);
+  border: none;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 15px;
+  cursor: pointer;
+  border-radius: 0 25px 25px 0;
+}
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 40px;
+}
+
+.logo-footer img {
+  width: 180px;
+}
+
+.nav-footer {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.nav-footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #5f6368;
+  margin-bottom: 30px;
+}
+
+.container-social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy {
+  color: #c5c5c5;
+  font-size: 14px;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+
+.social a {
+  color: white;
+  font-size: 20px;
+}
