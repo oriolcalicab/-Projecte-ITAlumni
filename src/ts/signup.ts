@@ -1,5 +1,3 @@
-console.log("📍 La ruta on estic ara és:", window.location.pathname);
-
 interface Alumne{
     id: string;
     nom: string;

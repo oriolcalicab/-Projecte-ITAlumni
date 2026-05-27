@@ -1,5 +1,4 @@
 "use strict";
-console.log("📍 La ruta on estic ara és:", window.location.pathname);
 const llistaAlumnes = JSON.parse(localStorage.getItem('alumnes') || '[]');
 const formulariRegistre = document.querySelector('.register-form');
 if (formulariRegistre) {
