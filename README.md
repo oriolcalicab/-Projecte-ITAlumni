@@ -58,8 +58,9 @@ This project is a set of static pages (HTML/CSS) with TypeScript/JavaScript code
 
 Main implementation in: `src/ts/jobPortal.ts`.
 
-* **Tipus de dades:** `interface Job` (id, titol, tipusContracte, publicat, imatgeUrl, esPopular, esJunior, diesEnrere).
-* **Operation flow:**
+***Tipus de dades:** `interface Job` (id, titol, tipusContracte, publicat, imatgeUrl, esPopular, esJunior, diesEnrere).
+***Operation flow:**
+
   1. **Workload**: `carregarFeinesPortal()`. Read from `localStorage`. If empty, inject data *mock* initials and save them.
   2. **Render the grid**: `renderitzarFeines(llistaFeines)`.It creates dynamic HTML structures and injects them into`#job-grid`. Unify all action buttons with the text "View Details".
   3. **Search engine**: Filter in real time using the `input` event of the `#search-job` element by title or contract type.
@@ -89,6 +90,8 @@ Offers are saved in the browser with:
 Before opening the project, you need to compile the files from the `src/ts/` folder into `src/js/` using the configuration set in `tsconfig.json`.
 
 Run in the terminal of the project root:
+
 ```bash
 # Leave the compiler in active listening mode (Watch)
 tsc -w
+```
