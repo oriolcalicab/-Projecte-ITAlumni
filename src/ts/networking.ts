@@ -86,7 +86,7 @@ filterLink.forEach(nexus => {
         if(tipusFiltre === "Activitat recent"){
            llistaOrdenada.sort((a, b) => b.id.localeCompare(a.id)); 
         } else if(tipusFiltre === "Popular"){
-            llistaOrdenada.sort((a, b) => b.id.localeCompare(b.nom));
+            llistaOrdenada.sort((a, b) => a.nom.localeCompare(b.nom));
         }else if (tipusFiltre === "Els mes connectats"){
             llistaOrdenada.sort((a, b) => a.cognom.localeCompare(b.cognom));
         }
