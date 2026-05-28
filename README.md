@@ -11,6 +11,7 @@
 - [Functionalities Core (TypeScript)](#functionalities-core-typescript)
 - [Data persistence](#data-persistence)
 - [How to execute the project](#how-to-execute-the-project)
+- [Project Management (Kanban)](#-project-management-kanban)
 
 ## Description
 
@@ -95,3 +96,30 @@ Run in the terminal of the project root:
 # Leave the compiler in active listening mode (Watch)
 tsc -w
 ```
+
+## 📋 Project Management (Kanban)
+
+### Kanban board
+
+### 1. Per fer (To Do)
+
+- Dissenyar la pàgina de Perfil d'Usuari.
+- Crear el fitxer de codi real de tests amb Jest (opcional segons el vostre lliurament).
+
+### 2. En procés (In Progress)
+
+- Establir i guardar el fitxer jobPortal.feature amb els escenaris Gherkin a la carpeta del projecte.
+
+### 3. En revisió (Review)
+
+- Comprovar des de l'enllaç de Netlify que tot funcioni (perfils i feines) sense errors a la consola F12.
+
+### Fet (Done)
+
+- Ignorar node_modules al .gitignore.
+- Corregir l'outDir al tsconfig.json.
+- Connectar formulari de registre (signup.ts) amb la base de dades de networking.ts via localStorage.
+- Programar cercador i filtres a jobPortal.ts.
+- Unificar botons i disseny responsive.
+- Sincronitzar develop i master amb Gitflow.
+- Desplegar l'aplicació a Netlify.
