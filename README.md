@@ -104,7 +104,7 @@ tsc -w
 ### 1. Per fer (To Do)
 
 - Dissenyar la pàgina de Perfil d'Usuari.
-- Crear el fitxer de codi real de tests amb Jest (opcional segons el vostre lliurament).
+- Crear el fitxer de codi real de tests amb Jest.
 
 ### 2. En procés (In Progress)
 
@@ -114,7 +114,7 @@ tsc -w
 
 - Comprovar des de l'enllaç de Netlify que tot funcioni (perfils i feines) sense errors a la consola F12.
 
-### Fet (Done)
+### 4. Fet (Done)
 
 - Ignorar node_modules al .gitignore.
 - Corregir l'outDir al tsconfig.json.
